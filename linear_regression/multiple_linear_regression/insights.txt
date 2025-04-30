@@ -1,0 +1,37 @@
+These are typical economic indicators, and they often influence each other in the context of financial and stock market behavior.
+
+🔁 General Relationships Between Features
+1. Interest Rate ↔ Index Price
+📉 Higher interest rates → borrowing becomes expensive → companies invest less → stock market (index price) tends to fall.
+
+📈 Lower interest rates → cheaper loans → more investments → index prices may rise.
+
+➡️ Inverse relationship in many cases.
+
+2. Unemployment Rate ↔ Index Price
+📉 High unemployment → weak economy → reduced consumer spending → index prices drop.
+
+📈 Low unemployment → strong economy → more spending → index prices rise.
+
+➡️ Again, a generally negative correlation.
+
+3. Interest Rate ↔ Unemployment Rate
+📈 When central banks raise interest rates (to control inflation), it may slow down the economy → could lead to increased unemployment.
+
+📉 When they lower interest rates, it encourages business activity → potentially reduces unemployment.
+
+➡️ Often positively related, depending on economic conditions.
+
+4. Year & Month (Time Features)
+These are contextual features — trends change over time.
+
+Over years, economies grow → average index prices might trend upward.
+
+Seasonal effects (months) may affect certain industries, slightly influencing index prices.
+
+🧠 Summary Table:
+Feature 1	        Feature 2	        General Relationship
+Interest Rate	    Index Price	        Negative
+Unemployment Rate	Index Price	        Negative
+Interest Rate	    Unemployment Rate	Positive
+Year	            Index Price	        Generally Increasing Trend
