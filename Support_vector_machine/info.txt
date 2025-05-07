@@ -1,0 +1,43 @@
+SVM – Summary
+Goal: Find the best separating hyperplane between classes by maximizing margin.
+
+Key Concepts
+Support Vectors: Data points closest to the decision boundary.
+Hyperplane: Line (2D) or plane (nD) that separates classes.
+Margin: Distance between hyperplane and nearest points; SVM maximizes this.
+
+Types
+Linear SVM: Works when data is linearly separable.
+Non-linear SVM: Uses kernel trick for non-linear separation.
+
+Kernels
+Linear
+Polynomial
+RBF (Gaussian)
+Sigmoid
+Choose kernel based on data distribution.
+
+Parameters
+C: Regularization (trade-off between margin size and classification error).
+gamma: Kernel coefficient (RBF/poly), controls decision boundary smoothness.
+degree: For polynomial kernel.
+
+Use Cases
+Classification (binary & multi-class via One-vs-One/One-vs-All)
+Outlier detection (SVM variant)
+Image recognition, text classification, bioinformatics
+
+Advantages
+Effective in high-dimensional spaces.
+Works well with clear margin of separation.
+Memory efficient (uses support vectors only).
+
+Disadvantages
+Not good for large datasets (slow training).
+Sensitive to kernel and parameter choice.
+Less effective with overlapping classes/noise.
+
+Important Notes
+Feature scaling is crucial.
+Works for regression too (called SVR).
+Use GridSearchCV or RandomizedSearchCV for tuning C, gamma, kernel.
