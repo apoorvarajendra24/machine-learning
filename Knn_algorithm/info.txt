@@ -1,0 +1,41 @@
+🧠 K-NN is a:
+✅ 1. Non-parametric algorithm
+What it means:
+It doesn’t assume any specific shape or formula for the data (like a straight line or curve).
+
+Why it matters:
+K-NN can handle any kind of data pattern, because it doesn’t try to fit a fixed equation.
+
+Simple example:
+Linear regression fits a straight line (parametric), but K-NN just looks at data points without fitting a line.
+
+✅ 2. Instance-based algorithm
+What it means:
+It memorizes the training data.
+
+Why it matters:
+When predicting, K-NN looks at the closest examples in memory and uses them to make decisions.
+
+Simple example:
+It’s like saying: “To decide what this new fruit is, I’ll look at the fruits nearby and see what they are.”
+
+✅ 3. Lazy learning algorithm
+What it means:
+It doesn’t learn anything during training.
+
+Why it matters:
+It just stores the data and waits until you ask it to make a prediction.
+
+Simple example:
+Imagine a student who doesn't study in advance but answers questions during the test by flipping through the textbook quickly.
+
+📌 Summary in One Line:
+K-NN stores the data and, when asked to predict, it checks the closest points to make a decision — without assuming any formulas or doing training work ahead of time.
+
+
+
+large K = not-flexible model = underfit = low variance & high bias
+small K = flexible model = overfit = high variance & low bias (for example, a k-NN model with 
+K=1 will result in zero training error, typical for severe overfitting).
+A general rule of thumb in choosing the value of K is K=sqrt(n) where n
+stands for the number of samples in the training dataset. Another tip is to try and keep the value of K odd, so that there is no tie between choosing a class .
