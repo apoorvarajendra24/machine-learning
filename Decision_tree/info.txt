@@ -1,0 +1,17 @@
+Do we need standardization in decision tree?
+No, standardization is not required for Decision Tree models.
+
+✅ Why?
+Decision Trees (and tree-based models like Random Forests, Gradient Boosting) are not sensitive to the scale of features. They:
+Split data by feature thresholds (e.g., “Is feature ≤ 5.5?”)
+Don’t use distance-based calculations (like SVM or KNN do)
+Don’t assume features follow a normal distribution
+So whether your features are in centimeters or kilometers, the tree structure will be the same.
+
+🧠 When Is Standardization Needed?
+Standardization is usually needed for models that depend on feature magnitudes, such as:
+Support Vector Machines (SVM)
+Logistic Regression
+K-Nearest Neighbors (KNN)
+PCA (Principal Component Analysis)
+Neural Networks
