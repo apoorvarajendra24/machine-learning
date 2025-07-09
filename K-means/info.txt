@@ -1,0 +1,32 @@
+✅ KMeans Project Workflow (Step-by-Step)
+Import libraries
+pandas, numpy, matplotlib, sklearn
+
+Load or create dataset
+Use 2 features only (for visualization).
+
+Train-test split
+train_test_split(X, test_size=0.2)
+
+Feature scaling
+StandardScaler() → fit on train, transform both train & test.
+
+Find optimal K using silhouette score
+
+Loop K=2 to 10
+
+Fit KMeans
+
+Use silhouette_score() to evaluate
+
+Choose K with highest score
+
+Train final KMeans using best K
+
+fit_predict() on scaled train data
+
+predict() on scaled test data
+
+Visualize clusters
+
+Plot training and test clusters with centroids
